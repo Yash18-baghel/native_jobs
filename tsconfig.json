@@ -1,0 +1,21 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "jsx": "react",
+    "jsx": "react",
+    "jsx": "react",
+    "jsx": "react",
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "components/home/welcome/welcome.style.ts", "components/jobdetails/tabs/tabs.style.ts", "components/jobdetails/company/company.style.ts", "components/jobdetails/footer/Footer.tsx", "components/jobdetails/footer/footer.style.ts", "components/jobdetails/specifics/specifics.style.ts", "components/jobdetails/specifics/Specifics.tsx", "components/jobdetails/tabs/Tabs.tsx", "components/jobdetails/tabs/tabs.style.ts", "components/common/header/screenheader.style.ts", "constants/icons.js"  ]
+}

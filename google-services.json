@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "822278516590",
+    "project_id": "native-jobs-55827",
+    "storage_bucket": "native-jobs-55827.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822278516590:android:5bac1b94314e83f111db7f",
+        "android_client_info": {
+          "package_name": "coml.company.native_job"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWYJykGZF4VYp_hOUFAVRYUMMobPCM-Fs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
