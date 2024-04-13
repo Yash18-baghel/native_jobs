@@ -1,14 +1,23 @@
 {
   "expo": {
     "name": "native_jobs",
+    "currentFullName": "native jobs",
+    "originalFullName": "native jobs",
+    "sdkVersion": "50.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "githubUrl": "https://github.com/Yash18-baghel/native_jobs",
     "slug": "native_jobs",
     "version": "1.0.0",
+    "description": "native jobs",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/SplashImage.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,14 +25,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nativejobs.app"
     },
     "android": {
       "versionCode": 1,
       "package": "coml.company.native_job",
-      "keystorePath": "./expo-key.keystore",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
@@ -33,7 +41,9 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-build-properties",
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
@@ -46,6 +56,12 @@
         "projectId": "5664fbf7-867b-44c3-b0d3-dff3a5471b33"
       }
     },
-    "owner": "yashb1718"
+    "owner": "yashb1718",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5664fbf7-867b-44c3-b0d3-dff3a5471b33"
+    }
   }
 }
